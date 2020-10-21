@@ -1,6 +1,6 @@
 {
-  "name": "react-native-fast-toast",
-  "version": "0.1.0",
+  "name": "@emmanuj/react-native-fast-toast",
+  "version": "2.1.3",
   "description": "A Toast component for react-native, supports Android, IOS, Web, Windows",
   "main": "lib/commonjs/index",
   "module": "lib/module/index",
