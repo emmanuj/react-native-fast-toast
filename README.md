@@ -22,7 +22,7 @@ I've cloned the project here in order to provide better support and maintenance.
 Open a Terminal in the project root and run:
 
 ```sh
-yarn add react-native-fast-toast
+yarn add @emmanuj/react-native-fast-toast
 ```
 
 ## Basic Example
