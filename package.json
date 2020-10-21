@@ -14,7 +14,6 @@
     "ios",
     "cpp",
     "react-native-fast-toast.podspec",
-    "!lib/typescript/example",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
@@ -24,10 +23,7 @@
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
-    "release": "release-it",
-    "example": "yarn --cwd example",
-    "pods": "cd example && pod-install --quiet",
-    "bootstrap": "yarn example && yarn && yarn pods"
+    "release": "release-it"
   },
   "keywords": [
     "react-native",
