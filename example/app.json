@@ -1,0 +1,22 @@
+{
+  "name": "react-native-fast-toast-example",
+  "displayName": "FastToast Example",
+  "expo": {
+    "name": "react-native-fast-toast-example",
+    "slug": "react-native-fast-toast-example",
+    "description": "Example app for react-native-fast-toast",
+    "privacy": "public",
+    "version": "1.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
