@@ -8,12 +8,8 @@
   "react-native": "src/index",
   "source": "src/index",
   "files": [
-    "src",
-    "lib",
-    "android",
-    "ios",
-    "cpp",
-    "react-native-fast-toast.podspec",
+    "src/",
+    "lib/",
     "!**/__tests__",
     "!**/__fixtures__",
     "!**/__mocks__"
@@ -23,7 +19,10 @@
     "typescript": "tsc --noEmit",
     "lint": "eslint \"**/*.{js,ts,tsx}\"",
     "prepare": "bob build",
-    "release": "release-it"
+    "release": "release-it",
+    "example": "yarn --cwd example",
+    "pods": "cd example && pod-install --quiet",
+    "bootstrap": "yarn example && yarn && yarn pods"
   },
   "keywords": [
     "react-native",

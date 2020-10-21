@@ -9,9 +9,7 @@
     "ios": "expo start --ios",
     "web": "expo start --web",
     "start": "expo start",
-    "test": "jest",
-    "pods": "pod-install --quiet",
-    "bootstrap": "yarn && yarn pods"
+    "test": "jest"
   },
   "dependencies": {
     "expo": "^38.0.0",
